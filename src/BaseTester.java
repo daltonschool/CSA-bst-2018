@@ -45,9 +45,9 @@ class TraverseTester extends Tester {
         bst.insert('g');
         bst.insert('h');
         List<Character> l = bst.traverseInorder();
-        if(l.size()!=8) return false;
+        if(l.size()!=7) return false;
         if(l.get(0) != 'a') return false;
-        if(l.get(7) != 'h') return false;
+        if(l.get(6) != 'h') return false;
         return true;
     }
 }
